@@ -26,6 +26,7 @@ SRCS = src/ft_isalpha.c \
 	src/ft_memcmp.c \
 	src/ft_strnstr.c \
 	src/ft_atoi.c \
+	src/ft_atoi_base.c \
 	src/ft_calloc.c \
 	src/ft_strdup.c \
 	src/ft_substr.c \
