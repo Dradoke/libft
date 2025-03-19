@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_base.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ngaudoui <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ngaudoui <ngaudoui@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/19 00:45:36 by jmilesi           #+#    #+#             */
-/*   Updated: 2025/03/06 13:54:34 by ngaudoui         ###   ########.fr       */
+/*   Updated: 2025/03/19 15:52:47 by ngaudoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-size_t	ft_strlen(const char *s)
+size_t	ft_stlen(const char *s)
 {
 	int	i;
 
@@ -29,7 +29,7 @@ int	ft_pn_b(long long n, char *base)
 	int			len;
 
 	len = 0;
-	base_length = ft_strlen(base);
+	base_length = ft_stlen(base);
 	if (n < 0)
 	{
 		len += write(1, "-", 1);
