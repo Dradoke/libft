@@ -48,10 +48,11 @@ SRCS = src/ft_isalpha.c \
 # 		ft_lstmap.c
 # Liste des fichiers Objets creer a partir de 'SRCS' (Fichiers sources)
 OBJS = $(SRCS:%.c=$(OBJ_DIR)%.o)
-PRINTF_OBJS = $(shell find $(PRINTF_DIR) -name '*.o')
+PRINTF_OBJS = $(shell find $(PRINTF_OBJ_DIR) -name '*.o')
 
 OBJ_DIR = obj/
 PRINTF_DIR = printf/
+PRINTF_OBJ_DIR = $(OBJ_DIR)$(PRINTF_DIR)
 PRINTF_LIB = $(PRINTF_DIR)libftprintf.a
 # Liste des fichiers Objets BONUS creer a partir de 'BONUS_SRCS' (Fichiers sources)
 # BONUS_OBJ = $(BONUS_SRCS:.c=.o)
@@ -66,7 +67,7 @@ $(PRINTF_LIB):
 
 # test/test.a
 $(NAME) : $(OBJS) $(PRINTF_LIB)
-	@ar rcs $@ $(OBJS) $(PRINTF_OBJS)
+	ar rcs $@ $(OBJS) $(PRINTF_OBJS)
 #	@ar x test/test.a
 #	@ar rcs $(NAME) *.o
 #	@rm -f *.o
