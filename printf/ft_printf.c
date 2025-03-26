@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jmilesi <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: ngaudoui <ngaudoui@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 20:05:53 by jmilesi           #+#    #+#             */
-/*   Updated: 2023/05/26 11:55:31 by jmilesi          ###   ########.fr       */
+/*   Updated: 2025/03/26 15:32:29 by ngaudoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
 int	ft_formats(va_list args, const char format)
-{	
+{
 	int	len;
 
 	len = 0;
