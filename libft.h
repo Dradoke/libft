@@ -6,7 +6,7 @@
 /*   By: ngaudoui <ngaudoui@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 15:56:44 by mavander          #+#    #+#             */
-/*   Updated: 2025/03/14 18:10:50 by ngaudoui         ###   ########.fr       */
+/*   Updated: 2025/04/04 16:30:25 by ngaudoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,6 +57,7 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
+long	ft_atol(const char *s);
 // BONUS FUNCTIONS
 // typedef struct s_list
 // {

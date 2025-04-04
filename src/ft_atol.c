@@ -6,13 +6,13 @@
 /*   By: ngaudoui <ngaudoui@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/26 16:49:21 by ngaudoui          #+#    #+#             */
-/*   Updated: 2025/03/26 16:57:41 by ngaudoui         ###   ########.fr       */
+/*   Updated: 2025/04/04 16:30:15 by ngaudoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
-static long	ft_atol(const char *s)
+long	ft_atol(const char *s)
 {
 	long	result;
 	int		sign;
