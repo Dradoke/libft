@@ -6,10 +6,9 @@
 /*   By: ngaudoui <ngaudoui@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 15:56:44 by mavander          #+#    #+#             */
-/*   Updated: 2025/04/09 12:26:14 by ngaudoui         ###   ########.fr       */
+/*   Updated: 2025/04/09 16:10:48 by ngaudoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #ifndef LIBFT_H
 # define LIBFT_H
