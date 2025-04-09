@@ -41,7 +41,7 @@ SRCS = src/ft_isalpha.c \
 	src/ft_putendl_fd.c \
 	src/ft_putnbr_fd.c \
 	src/ft_atol.c \
-	src/c_abs.c \
+	src/ft_abs.c \
 	gnl/get_next_line.c \
 	gnl/get_next_line_utils.c
 # Liste des fichiers sources BONUS
