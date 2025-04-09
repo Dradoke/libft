@@ -6,13 +6,12 @@
 /*   By: ngaudoui <ngaudoui@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 15:56:44 by mavander          #+#    #+#             */
-/*   Updated: 2025/04/09 16:14:29 by ngaudoui         ###   ########.fr       */
+/*   Updated: 2025/04/09 17:50:29 by ngaudoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-
 
 # include <stddef.h>
 # include <stdio.h>
