@@ -6,9 +6,10 @@
 /*   By: ngaudoui <ngaudoui@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 15:56:44 by mavander          #+#    #+#             */
-/*   Updated: 2025/04/04 16:30:25 by ngaudoui         ###   ########.fr       */
+/*   Updated: 2025/04/09 12:26:14 by ngaudoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #ifndef LIBFT_H
 # define LIBFT_H
@@ -58,6 +59,7 @@ void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 long	ft_atol(const char *s);
+int		ft_abs(int x);
 // BONUS FUNCTIONS
 // typedef struct s_list
 // {
