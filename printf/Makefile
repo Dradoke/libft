@@ -6,7 +6,7 @@
 #    By: ngaudoui <ngaudoui@student.42lehavre.fr    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/15 21:57:55 by jmilesi           #+#    #+#              #
-#    Updated: 2025/04/11 16:09:36 by ngaudoui         ###   ########.fr        #
+#    Updated: 2025/04/11 17:01:17 by ngaudoui         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -31,13 +31,13 @@ all: $(NAME) move_objs
 
 $(NAME): $(OBJS)
 	@$(AR) $(NAME) $(OBJS)
-	@echo "$(NAME) created"
+#	@echo "$(NAME) created"
 
 move_objs:
 	@mkdir -p $(OBJ_DIR)
 	@mv $(OBJS) $(OBJ_DIR)
 	@$(RM) $(NAME)
-	@echo "Objects moved to $(OBJ_DIR)"
+#	@echo "Objects moved to $(OBJ_DIR)"
 
 
 clean:

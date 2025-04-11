@@ -73,7 +73,7 @@ $(NAME) : $(OBJS) $(PRINTF_LIB)
 #	@ar x test/test.a
 #	@ar rcs $(NAME) *.o
 #	@rm -f *.o
-	@echo "$(NAME) created"
+#	@echo "$(NAME) created"
 
 $(OBJ_DIR)%.o: %.c
 	@mkdir -p $(dir $@)
@@ -95,7 +95,7 @@ clean:
 fclean:		clean
 	@$(RM) $(NAME)
 	@make -C $(PRINTF_DIR) fclean
-	@echo "$(NAME) deleted"
+#	@echo "$(NAME) deleted"
 
 re:	fclean all
 
