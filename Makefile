@@ -69,7 +69,7 @@ $(PRINTF_LIB):
 
 # test/test.a
 $(NAME) : $(OBJS) $(PRINTF_LIB)
-	ar rcs $@ $(OBJS) $(PRINTF_OBJS)
+	@ar rcs $@ $(OBJS) $(PRINTF_OBJS)
 #	@ar x test/test.a
 #	@ar rcs $(NAME) *.o
 #	@rm -f *.o
