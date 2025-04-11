@@ -6,7 +6,7 @@
 #    By: ngaudoui <ngaudoui@student.42lehavre.fr    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/15 21:57:55 by jmilesi           #+#    #+#              #
-#    Updated: 2025/03/14 18:10:46 by ngaudoui         ###   ########.fr        #
+#    Updated: 2025/04/11 16:09:36 by ngaudoui         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,22 +30,22 @@ OBJS = $(SRC:.c=.o)
 all: $(NAME) move_objs
 
 $(NAME): $(OBJS)
-	$(AR) $(NAME) $(OBJS)
+	@$(AR) $(NAME) $(OBJS)
 	@echo "$(NAME) created"
 
 move_objs:
 	@mkdir -p $(OBJ_DIR)
 	@mv $(OBJS) $(OBJ_DIR)
-	$(RM) $(NAME)
+	@$(RM) $(NAME)
 	@echo "Objects moved to $(OBJ_DIR)"
 
 
 clean:
-	$(RM) $(OBJS)
+	@$(RM) $(OBJS)
 	@echo "Printf OBJ deleted"
 
 fclean: clean
-	$(RM) $(NAME)
+	@$(RM) $(NAME)
 	@echo "$(NAME) deleted"
 
 re: fclean $(NAME)
